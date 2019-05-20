@@ -10887,6 +10887,38 @@ div.fixed-table-scroll-outer {
 {
   border:0px;
 }
+/*
+Origin : https://github.com/wenzhixin/bootstrap-table-fixed-columns
+Need more improvement.
+*/
+
+.fixed-table-header-columns,
+.fixed-table-body-columns {
+    position: absolute;
+    background-color: #fff;
+    display: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.fixed-table-header-columns .table,
+.fixed-table-body-columns .table {
+    border-right: 1px solid #ddd;
+}
+
+.fixed-table-header-columns .table.table-no-bordered,
+.fixed-table-body-columns .table.table-no-bordered {
+    border-right: 1px solid transparent;
+}
+
+.fixed-table-body-columns table {
+    position: absolute;
+    animation: none;
+}
+
+.bootstrap-table .table-hover > tbody > tr.hover > td{
+    background-color: #f5f5f5;
+}
 
 .status {
   line-height: 52px;
@@ -11143,37 +11175,5 @@ li.rc-time-picker-panel-select-option-disabled:hover {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-/*
-Origin : https://github.com/wenzhixin/bootstrap-table-fixed-columns
-Need more improvement.
-*/
 
-.fixed-table-header-columns,
-.fixed-table-body-columns {
-    position: absolute;
-    background-color: #fff;
-    display: none;
-    box-sizing: border-box;
-    overflow: hidden;
-}
-
-.fixed-table-header-columns .table,
-.fixed-table-body-columns .table {
-    border-right: 1px solid #ddd;
-}
-
-.fixed-table-header-columns .table.table-no-bordered,
-.fixed-table-body-columns .table.table-no-bordered {
-    border-right: 1px solid transparent;
-}
-
-.fixed-table-body-columns table {
-    position: absolute;
-    animation: none;
-}
-
-.bootstrap-table .table-hover > tbody > tr.hover > td{
-    background-color: #f5f5f5;
-}
-
-/*# sourceMappingURL=app.a8bd06469a4dba82fe14.bundle.map*/
+/*# sourceMappingURL=app.cbbe3182fb18e90c9cc7.bundle.map*/
