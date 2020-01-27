@@ -707,7 +707,7 @@ __webpack_require__("aurelia-loader-webpack");
 __webpack_require__(51);
 __webpack_require__("aurelia-logging-console");
 __webpack_require__(52);
-__webpack_require__(26);
+__webpack_require__(25);
 __webpack_require__("aurelia-route-recognizer");
 __webpack_require__("aurelia-router");
 __webpack_require__(125);
@@ -986,7 +986,7 @@ var History = function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_aurelia_pal__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_aurelia_loader__ = __webpack_require__("aurelia-loader");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_aurelia_loader___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_aurelia_loader__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_aurelia_path__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_aurelia_path__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_aurelia_binding__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_aurelia_dependency_injection__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_aurelia_task_queue__ = __webpack_require__(125);
@@ -12333,7 +12333,7 @@ function configure(config) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_aurelia_loader___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_aurelia_loader__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_aurelia_templating__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_aurelia_pal__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_aurelia_path__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_aurelia_path__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_aurelia_binding__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_aurelia_metadata__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_aurelia_task_queue__ = __webpack_require__(125);
@@ -13400,7 +13400,7 @@ var ConsoleAppender = function () {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_aurelia_path__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_aurelia_path__ = __webpack_require__(25);
 /* harmony export (binding) */ __webpack_require__.d(exports, "State", function() { return State; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "StaticSegment", function() { return StaticSegment; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "DynamicSegment", function() { return DynamicSegment; });
@@ -17050,7 +17050,7 @@ function configure(config) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_aurelia_logging__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_aurelia_loader__ = __webpack_require__("aurelia-loader");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_aurelia_loader___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_aurelia_loader__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_aurelia_path__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_aurelia_path__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_aurelia_metadata__ = __webpack_require__(52);
 /* harmony export (binding) */ __webpack_require__.d(exports, "AbstractRepeater", function() { return AbstractRepeater; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "ArrayRepeatStrategy", function() { return ArrayRepeatStrategy; });
@@ -18921,7 +18921,7 @@ function configure$1(config) {
 "use strict";
 /* WEBPACK VAR INJECTION */(function(Promise) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_aurelia_router__ = __webpack_require__("aurelia-router");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_aurelia_metadata__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_aurelia_path__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_aurelia_path__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_aurelia_templating__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_aurelia_dependency_injection__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_aurelia_binding__ = __webpack_require__(82);
