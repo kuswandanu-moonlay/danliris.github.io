@@ -710,7 +710,7 @@ __webpack_require__(52);
 __webpack_require__(23);
 __webpack_require__("aurelia-route-recognizer");
 __webpack_require__("aurelia-router");
-__webpack_require__(125);
+__webpack_require__(127);
 __webpack_require__(40);
 __webpack_require__("aurelia-templating-binding");
 __webpack_require__("aurelia-templating-router");
@@ -719,7 +719,7 @@ module.exports = __webpack_require__("aurelia-templating-resources");
 
 /***/ },
 
-/***/ 125:
+/***/ 127:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -989,7 +989,7 @@ var History = function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_aurelia_path__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_aurelia_binding__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_aurelia_dependency_injection__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_aurelia_task_queue__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_aurelia_task_queue__ = __webpack_require__(127);
 /* harmony export (binding) */ __webpack_require__.d(exports, "animationEvent", function() { return animationEvent; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "Animator", function() { return Animator; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "CompositionTransactionNotifier", function() { return CompositionTransactionNotifier; });
@@ -6464,7 +6464,7 @@ var Logger = function () {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_aurelia_logging__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_aurelia_pal__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_aurelia_task_queue__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_aurelia_task_queue__ = __webpack_require__(127);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_aurelia_metadata__ = __webpack_require__(52);
 /* harmony export (binding) */ __webpack_require__.d(exports, "getArrayObserver", function() { return _getArrayObserver; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "getMapObserver", function() { return _getMapObserver; });
@@ -12336,7 +12336,7 @@ function configure(config) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_aurelia_path__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_aurelia_binding__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_aurelia_metadata__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_aurelia_task_queue__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_aurelia_task_queue__ = __webpack_require__(127);
 /* harmony export (binding) */ __webpack_require__.d(exports, "Aurelia", function() { return Aurelia; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "FrameworkConfiguration", function() { return FrameworkConfiguration; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "_emptyParameters", function() { return __WEBPACK_IMPORTED_MODULE_1_aurelia_dependency_injection__["_emptyParameters"]; });
@@ -17044,7 +17044,7 @@ function configure(config) {
 "use strict";
 /* WEBPACK VAR INJECTION */(function(Promise) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_aurelia_dependency_injection__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_aurelia_pal__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_aurelia_task_queue__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_aurelia_task_queue__ = __webpack_require__(127);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_aurelia_templating__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_aurelia_binding__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_aurelia_logging__ = __webpack_require__(51);
