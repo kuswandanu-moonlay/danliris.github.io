@@ -79,7 +79,7 @@
 /******/ 		script.async = true;
 /******/ 		script.timeout = 120000;
 /******/
-/******/ 		script.src = __webpack_require__.p + "" + chunkId + "." + {"0":"463be44e82f5db630d7f","1":"a482b24c8a4a422a461a","2":"d3ed207cf5496736d6ee"}[chunkId] + ".chunk.js";
+/******/ 		script.src = __webpack_require__.p + "" + chunkId + "." + {"0":"0859c9c9cb5e6cdcdfe4","1":"a482b24c8a4a422a461a","2":"d3ed207cf5496736d6ee"}[chunkId] + ".chunk.js";
 /******/ 		var timeout = setTimeout(onScriptComplete, 120000);
 /******/ 		script.onerror = script.onload = onScriptComplete;
 /******/ 		function onScriptComplete() {
@@ -372,20 +372,7 @@ process.umask = function() { return 0; };
 
 /***/ },
 
-/***/ 1218:
-/***/ function(module, exports, __webpack_require__) {
-
-__webpack_require__("aurelia-bootstrapper-webpack");
-__webpack_require__("aurelia-polyfills");
-__webpack_require__(27);
-__webpack_require__("aurelia-pal-browser");
-__webpack_require__(0);
-module.exports = __webpack_require__("bluebird");
-
-
-/***/ },
-
-/***/ 13:
+/***/ 11:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -600,6 +587,19 @@ function parseQueryString(queryString) {
   }
   return queryParams;
 }
+
+/***/ },
+
+/***/ 1218:
+/***/ function(module, exports, __webpack_require__) {
+
+__webpack_require__("aurelia-bootstrapper-webpack");
+__webpack_require__("aurelia-polyfills");
+__webpack_require__(27);
+__webpack_require__("aurelia-pal-browser");
+__webpack_require__(0);
+module.exports = __webpack_require__("bluebird");
+
 
 /***/ },
 
@@ -7745,7 +7745,7 @@ exports.Loader = exports.TemplateRegistryEntry = exports.TemplateDependency = un
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _aureliaPath = __webpack_require__(13);
+var _aureliaPath = __webpack_require__(11);
 
 var _aureliaMetadata = __webpack_require__(52);
 
